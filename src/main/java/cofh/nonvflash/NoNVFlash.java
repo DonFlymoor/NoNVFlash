@@ -1,6 +1,6 @@
 package cofh.nonvflash;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
 
 import java.util.function.Supplier;
 

@@ -25,6 +25,6 @@ side = "BOTH"
 [[dependencies.no_nv_flash]]
 modId = "forge"
 mandatory = true
-versionRange = "[${forge_version},)"
+versionRange = "[${neo_version},)"
 ordering = "AFTER"
 side = "BOTH"

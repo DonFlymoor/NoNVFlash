@@ -1,9 +1,9 @@
 package cofh.nonvflash;
 
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.fml.ModLoadingContext;
+import net.neoforged.neoforge.common.ModConfigSpec;
+import net.neoforged.fml.ModLoadingContext;
 
-import static net.minecraftforge.fml.config.ModConfig.Type.CLIENT;
+import static net.neoforged.fml.config.ModConfig.Type.CLIENT;
 
 public class Config {
 
@@ -26,8 +26,8 @@ public class Config {
     }
 
     // region CONFIG SPEC
-    private static final ForgeConfigSpec.Builder CLIENT_CONFIG = new ForgeConfigSpec.Builder();
-    private static ForgeConfigSpec clientSpec;
+    private static final ModConfigSpec.Builder CLIENT_CONFIG = new ModConfigSpec.Builder();
+    private static ModConfigSpec clientSpec;
 
     private static void genClientConfig() {
 
